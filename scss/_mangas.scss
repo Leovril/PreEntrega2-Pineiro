@@ -1,0 +1,33 @@
+/*Mangas*/
+
+@mixin font {
+	font-weight: bold;
+}
+
+.container {
+	max-width: 1000px;
+	width: 100%;
+	margin: 25px auto;
+}
+.card {
+	border: $color-violeta;
+}
+.card-body {
+	background-color: $color-negro;
+}
+.card-text {
+	color: #fff;
+	@include font();
+	font-size: 15px;
+}
+.card-title {
+	color: #fff;
+	@include font();
+	font-size: $pixeles;
+}
+.btn {
+	background-color: $color-violeta;
+	color: $color-negro;
+	@include font();
+	border: none;
+}

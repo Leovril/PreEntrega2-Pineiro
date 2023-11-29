@@ -1,0 +1,24 @@
+/*Footer*/
+
+.footer {
+	background-color: $color-negro;
+	color: #fff;
+	padding: $pixeles 0;
+	h4 {
+		font-size: 1.5rem;
+		margin-bottom: 10px;
+	}
+}
+.footerContenido {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 $pixeles;
+}
+.infoContacto {
+	p {
+		margin: 5px 0;
+		font-size: 1.2rem;
+	}
+}
